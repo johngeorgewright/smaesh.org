@@ -1,10 +1,11 @@
 {
   "name": "smaesh.org",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Official Smaesh Organisation Website",
   "main": "app.js",
   "private": true,
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +28,9 @@
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-promise": "^2.0.1",
     "eslint-plugin-standard": "^2.0.0"
+  },
+  "engines": {
+    "node": "6.x.x",
+    "npm": "3.x.x"
   }
 }
