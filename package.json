@@ -1,0 +1,31 @@
+{
+  "name": "smaesh.org",
+  "version": "0.0.0",
+  "description": "The Official Smaesh Organisation Website",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johngeorgewright/smaesh.org.git"
+  },
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/johngeorgewright/smaesh.org/issues"
+  },
+  "homepage": "https://github.com/johngeorgewright/smaesh.org#readme",
+  "dependencies": {
+    "koa": "^1.2.1",
+    "koa-pug": "^3.0.0-0",
+    "koa-static": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
