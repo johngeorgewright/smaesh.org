@@ -20,7 +20,7 @@ app.use(pug.middleware)
 app.use(kStatic(PUBLIC_DIR))
 
 app.use(function* () {
-  this.render('holding.pug')
+  this.render('home.pug')
 })
 
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`))
