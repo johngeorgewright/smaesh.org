@@ -12,3 +12,7 @@ blockquote {
   margin-top: 1em;
   text-align: center;
 }
+
+.logo.img-responsive {
+  display: inline-block;
+}

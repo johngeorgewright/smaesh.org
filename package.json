@@ -1,6 +1,6 @@
 {
   "name": "smaesh.org",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The Official Smaesh Organisation Website",
   "main": "app.js",
   "private": true,
@@ -24,6 +24,7 @@
     "jstransformer-marked": "^1.0.1",
     "koa": "^1.2.1",
     "koa-pug": "^3.0.0-0",
+    "koa-router": "^5.4.0",
     "koa-static": "^2.0.0"
   },
   "devDependencies": {
