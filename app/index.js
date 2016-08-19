@@ -1,15 +1,16 @@
 const koa = require('koa')
 const kStatic = require('koa-static')
 const Pug = require('koa-pug')
-const pathHelper = require('path')
+const joinPath = require('path').join
 
 const PORT = process.env.PORT || 3000
-const PUBLIC_DIR = pathHelper.resolve(__dirname, '..', 'public')
+const PUBLIC_DIR = joinPath(__dirname, 'public')
 const PRODUCTION = process.env.NODE_ENV !== 'production'
 
 const app = koa()
+
 const pug = new Pug({
-  viewPath: pathHelper.join(__dirname, 'views'),
+  viewPath: joinPath(__dirname, 'views'),
   debug: PRODUCTION,
   pretty: PRODUCTION,
   compileDebug: PRODUCTION

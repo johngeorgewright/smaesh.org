@@ -1,13 +1,14 @@
 {
   "name": "smaesh.org",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The Official Smaesh Organisation Website",
   "main": "app.js",
   "private": true,
   "scripts": {
-    "dev": "nodemon -e js,pug -i public app",
+    "dev": "nodemon -e js,pug -i app/public -x 'npm test && node app'",
+    "lint": "eslint --ignore-pattern .eslint .",
     "start": "node app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
