@@ -39,8 +39,8 @@ html(lang='en')
           a.navbar-brand(href='#') Smaesh
         #navbar.collapse.navbar-collapse
           ul.nav.navbar-nav
-            li.active
-              a(href='/') Rules
+            li(class={active: currentURLPath === '/rules'})
+              a(href='/rules') Rules
     .container
       block content
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
