@@ -1,9 +1,15 @@
 extends ./layout.pug
 
 block content
-  .text-center: img.logo.img-responsive(
-    alt='Logo'
-    src='/logo.png'
-  )
-
-  blockquote *Probably* the most loved, swimming pool based sport
+  .jumbotron.text-center
+    h1.sr-only Smaesh
+    img.logo.img-responsive(
+      alt='Logo'
+      src='/logo.png'
+    )
+    span.sr-only Pronounced in any of the following ways:
+    ul.list-inline
+      li [smæʃ]
+      li [smi:ʃ]
+      li [smeɪi:ʃ]
+    blockquote *Probably* the most loved, swimming pool based sport
