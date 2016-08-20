@@ -2,10 +2,6 @@ body {
   background-color: #eee;
 }
 
-.container {
-  margin-top: 2em;
-}
-
 blockquote {
   border: none;
   font-style: italic;
