@@ -1,6 +1,6 @@
 {
   "name": "smaesh.org",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "The Official Smaesh Organisation Website",
   "main": "app.js",
   "private": true,
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/johngeorgewright/smaesh.org#readme",
   "dependencies": {
+    "humanize-plus": "^1.8.2",
     "jstransformer-marked": "^1.0.1",
     "koa": "^1.2.1",
     "koa-pug": "^3.0.0-0",
