@@ -1,0 +1,30 @@
+module.exports = {
+  disallowAttributeConcatenation: true,
+  disallowAttributeInterpolation: true,
+  disallowClassLiteralsBeforeIdLiterals: true,
+  disallowDuplicateAttributes: true,
+  disallowHtmlText: true,
+  disallowLegacyMixinCall: true,
+  disallowMultipleLineBreaks: true,
+  disallowStringConcatenation: true,
+  disallowStringInterpolation: true,
+  disallowTagInterpolation: true,
+  requireClassLiteralsBeforeAttributes: true,
+  requireClassLiteralsBeforeIdLiterals: false,
+  requireIdLiteralsBeforeAttributes: true,
+  requireLineFeedAtFileEnd: true,
+  requireLowerCaseAttributes: true,
+  requireLowerCaseTags: true,
+  requireSpaceAfterCodeOperator: true,
+  requireStrictEqualityOperators: true,
+  validateAttributeQuoteMarks: '\'',
+  validateAttributeSeparator: {
+    separator: ' ',
+    multiLineSeparator: '\n  '
+  },
+  validateDivTags: true,
+  validateIndentation: 2,
+  validateLineBreaks: 'LF',
+  validateSelfClosingTags: true,
+  validateTemplateString: true
+}

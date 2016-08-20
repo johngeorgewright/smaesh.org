@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon -e js,pug -i app/public -x 'npm test && node app'",
-    "lint": "eslint --ignore-pattern .eslint .",
+    "lint": "eslint --ignore-pattern .eslint . && pug-lint .",
     "start": "node app",
     "test": "npm run lint"
   },
@@ -32,7 +32,8 @@
     "eslint": "^3.3.1",
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-standard": "^2.0.0"
+    "eslint-plugin-standard": "^2.0.0",
+    "pug-lint": "^2.3.0"
   },
   "engines": {
     "node": "6.x.x",
