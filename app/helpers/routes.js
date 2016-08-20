@@ -1,6 +1,6 @@
 const fs = require('fs')
 const pathHelper = require('path')
-const humanize = require('humanize-plus')
+const {capitalize} = require('humanize-plus')
 
 const viewPath = pathHelper.resolve(__dirname, '..', 'views')
 
@@ -13,7 +13,7 @@ const routes = fs
     return {
       basename, filename,
       path: basename === 'home' ? '/' : `/${basename}`,
-      label: humanize.capitalize(basename)
+      label: capitalize(basename)
     }
   })
 
