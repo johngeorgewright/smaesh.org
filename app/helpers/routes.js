@@ -19,4 +19,4 @@ const routes = fs
 
 exports.all = () => routes.slice()
 
-exports.nav = () => routes.slice().filter(({basename}) => basename !== 'home')
+exports.nav = () => routes.filter(({basename}) => basename !== 'home')

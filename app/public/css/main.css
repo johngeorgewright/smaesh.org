@@ -2,10 +2,6 @@ body {
   background-color: #eee;
 }
 
-.container {
-  margin-top: 2em;
-}
-
 blockquote {
   border: none;
   font-style: italic;
@@ -15,4 +11,22 @@ blockquote {
 
 .logo.img-responsive {
   display: inline-block;
+}
+
+.navbar-inverse .navbar-brand.active,
+.navbar-inverse .navbar-brand.active:hover {
+  background-color: #080808;
+}
+
+.navbar-brand span {
+  background: transparent url(/img/logo/menu.png) no-repeat center top;
+  display: inline-block;
+  height: 20px;
+  text-indent: -999px;
+  width: 12px;
+}
+
+.navbar-brand.active span,
+.navbar-brand:hover span {
+  background-position: center bottom;
 }
