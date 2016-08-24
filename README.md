@@ -31,3 +31,4 @@ npm start
       h1 My Page
     ```
 1. Read up on how the [pug template language](http://jade-lang.com/reference/) works.
+1. We're also using [Bootstrap](http://getbootstrap.com/). If you're unfamiliar with it, it's recommended to check it out.
