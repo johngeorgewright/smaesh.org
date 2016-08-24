@@ -1,6 +1,6 @@
 {
   "name": "smaesh.org",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "The Official Smaesh Organisation Website",
   "main": "app.js",
   "private": true,
