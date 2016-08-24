@@ -11,6 +11,7 @@ The Official Smaesh.org Website
 ### In development environments
 1. Install nodemon: `npm i -g nodemon`
 1. `npm run dev`
+1. Go to [http://localhost:3000]()
 
 ### In production environments
 ```
