@@ -2,6 +2,12 @@ body {
   background-color: #eee;
 }
 
+h1,
+.jumbotron h1 {
+  color: #bc4349;
+  font-family: 'Audiowide', cursive;
+}
+
 blockquote {
   border: none;
   font-style: italic;
