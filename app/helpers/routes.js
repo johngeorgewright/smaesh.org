@@ -13,7 +13,8 @@ const routes = fs
   .map(filename => {
     const basename = getBasename(filename)
     return {
-      basename, filename,
+      basename,
+      filename,
       path: basename === 'home' ? '/' : `/${basename}`,
       label: capitalize(basename)
     }

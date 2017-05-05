@@ -1,4 +1,4 @@
-const koa = require('koa')
+const Koa = require('koa')
 const pkg = require('../package.json')
 const kStatic = require('koa-static')
 const joinPath = require('path').join
@@ -8,7 +8,7 @@ const router = require('./router')
 const PORT = process.env.PORT || 3000
 const PUBLIC_DIR = joinPath(__dirname, 'public')
 
-const app = koa()
+const app = new Koa()
 
 templating(app)
 app.use(kStatic(PUBLIC_DIR))
