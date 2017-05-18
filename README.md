@@ -5,17 +5,18 @@ The Official Smaesh.org Website
 1. Clone this repo
 1. Install [nvm](https://github.com/creationix/nvm#installation)
 1. Install node (from within the cloned directory): `nvm i`
-1. Install dependencies: `npm i`
+1. Install [yarn](https://yarnpkg.com/en/)
+1. Install dependencies: `yarn`
 
 ## Running
 ### In development environments
-1. Install nodemon: `npm i -g nodemon`
-1. `npm run dev`
+1. Install nodemon: `yarn global add nodemon`
+1. `yarn run dev`
 1. Go to [http://localhost:3000]()
 
 ### In production environments
 ```
-npm start
+yarn start
 ```
 
 ## Creating new pages
