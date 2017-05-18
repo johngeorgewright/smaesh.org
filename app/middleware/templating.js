@@ -13,8 +13,8 @@ module.exports = app => {
     locals: {}
   })
 
-  app.use(async (ctx, next) => {
+  app.use((ctx, next) => {
     pug.locals.currentURLPath = ctx.request.path
-    await next()
+    return next()
   })
 }
