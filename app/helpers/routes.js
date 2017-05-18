@@ -6,7 +6,7 @@ const capitalize = str => capitalizeAll(str.split('-').join(' '))
 
 const viewPath = pathHelper.resolve(__dirname, '..', 'views')
 
-const getBasename = f => pathHelper.basename(f, pathHelper.extname(f))
+const getBasename = path => pathHelper.basename(path, pathHelper.extname(path))
 
 const routes = fs
   .readdirSync(viewPath)
